@@ -1,0 +1,30 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap');
+@import url(header.css);
+@import url(banner.css);
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*Variáveis*/
+:root{
+    --fonte_principal:'Inter', sans-serif;
+    --cor__fundo1:#FFFFFF;
+    --Cor__fundo2: #F7F7F7;
+    --Cor__tags: #E1E7EF;
+    --Cor__texto: #2D3748;
+    --cor__botão: #667FEA;
+    --cor__navmenu:#728197;
+
+}
+
+body{
+    font-family: var(--fonte_principal);
+    background-color: var(--Cor__fundo2);
+}

@@ -1,0 +1,21 @@
+.cabeçalho__container{
+    background-color: var(--cor__fundo1);
+    padding: 2em;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav__menu ul{
+    display: flex;
+    gap: 1em;
+}
+
+.nav__menu li a{
+    text-transform: capitalize;
+    color: var(--cor__navmenu);
+}
