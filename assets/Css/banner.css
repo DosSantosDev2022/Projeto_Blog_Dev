@@ -1,41 +1,66 @@
 .banner{
+    height:519px;
+    background-color: var(--cor__fundo1);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .text__description{
-    width: 40%;
+    width: 50%;
+    padding: 2em;
+
 }
 
 .text__description h1{
+    color: var(--Cor__texto);
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0.5em 0;
+}
+
+.text__description h1 span{
+    color: var(--cor__botão);
+}
+
+.descrição__dev{
+    color: var(--Cor__texto);
     font-size: 30px;
-    font-weight: 400;
-    margin: 0.5em 0;
+    font-weight: 600;
+    margin: 0.3em 0;
 }
 
-.text__description span{
-    font-size: 22px;
-    font-weight: 300;
-    margin: 0.5em 0;
-}
-
-.text__description p{
-    font-size: 17px;
-    font-weight: 400;
-    margin: 0.5em 0;
-}
-
-.foto__perfil{
-    width: 350px;
-
+.descrição__dev2{
+    color: var(--Cor__texto);
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 1.7em;
 }
 
 .button{
+    margin: 7px;
     background-color: var(--cor__botão);
     padding: 10px;
     border: 0;
     border-radius: 15px;
     color: var(--cor__fundo1);
-    margin: 0.5em 0;
+}
+
+.button a{  
+    color: var(--cor__navmenu);
+}
+
+.foto__perfil{
+    border: 3px solid var(--cor__botão);
+    border-radius: 10% 40% 30%;
+    width: 350px;
+    position: relative;
+
+}
+
+.fundo__perfil{
+    width: 60%;
+    position: absolute;
+    right: -50px;
+    bottom: 50px;
 }
