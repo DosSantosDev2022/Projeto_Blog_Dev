@@ -3,7 +3,7 @@
     grid-template-columns: 5fr 2fr;
     gap: 60px;
     padding: 8em;
-    background-color: hsl(0deg 0% 97%);
+    background-color: var(--Cor__fundo2)
 }
 
 .blog__container{
@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: 3fr 4fr;
     gap: 20px;
-    background-color: white;
+    background-color: var(cor__fundo1);
     border-radius: 10px;
     box-shadow: 0 10px 10px hsl(0deg 0% 0% / 5%);
     transition: .25s ease;
@@ -52,7 +52,7 @@
 
 .blog-content .blog--tag{
     border-radius: 50px;
-    background-color: #E1E7EF;
+    background-color: var(-Cor__tags);
     color: var(--Cor__texto);
     font-weight: 600;
     padding: 0.30rem 1rem;

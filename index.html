@@ -9,11 +9,13 @@
     <title>Blog Dev</title>
 </head>
 <body>
+
+    <!--Início header-->
     <header class="cabeçalho__container">
         <div class="navbar__container">
-            <img src="assets/img/logo.svg" class="logo__header" alt="">
-            <nav class="nav__menu">
-                <ul class=>
+            <img src="assets/img/logo.svg" class="logo__header" alt="Logo do DevBlog"><!-- Logo do Devblog -->
+            <nav class="nav__menu"><!--Menu de navegação header-->
+                <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre mim</a></li>
                     <li><a href="">Posts</a></li>
@@ -21,8 +23,11 @@
             </nav>
         </div>
     </header>
+    <!--Fim header-->
+
+    <!--Iníco main-->
     <main>
-        <div class="banner">
+        <div class="banner"><!--Banner do main-->
             <div class="text__description">
                 <h1>Olá, eu sou <span>Juliano Santos.</span></h1>
                 <p class="descrição__dev">Desenvolvedor Front-End</p>
@@ -30,16 +35,16 @@
                 <a class="button" href="">Contato</a>
                 <a class="button" href="">Sobre mim</a>
             </div>
-            <div class="photo_profile">
+            <div class="photo_profile"><!-- foto do criador do blog -->
                 <img class="foto__perfil" src="assets/img/logo_perfil.svg" alt="">
             </div>
         </div>
 
-        <div class="container_main">
+        <div class="container_main"><!--Container preview posts do blog-->
         <div class="blog__container">
             <h2 class="title__blog">Postagens recentes do blog</h2>
             <div class="blog__card--group">
-                <div class="blog-card">
+                <div class="blog-card"><!-- blog card preview 01 -->
                     <div class="blog-card-banner"><img src="assets/img/IMAGE (1).png" alt=""></div>
                     <div class="blog-content">
                         <a class="blog--tag" href="">Base de dados</a>
@@ -54,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-card">
+                <div class="blog-card"><!-- blog card preview 02 -->
                     <div class="blog-card-banner"><img src="assets/img/IMAGE (1).png" alt=""></div>
                     <div class="blog-content">
                         <a class="blog--tag" href="">Base de dados</a>
@@ -69,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-card">
+                <div class="blog-card"><!-- blog card preview 03 -->
                     <div class="blog-card-banner"><img src="assets/img/IMAGE (1).png" alt=""></div>
                     <div class="blog-content">
                         <a class="blog--tag" href="">Base de dados</a>
@@ -84,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-card">
+                <div class="blog-card"><!-- blog card preview 04 -->
                     <div class="blog-card-banner"><img src="assets/img/IMAGE (1).png" alt=""></div>
                     <div class="blog-content">
                         <a class="blog--tag" href="">Base de dados</a>
@@ -99,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-card">
+                <div class="blog-card"><!-- blog card preview 05 -->
                     <div class="blog-card-banner"><img src="assets/img/IMAGE (1).png" alt=""></div>
                     <div class="blog-content">
                         <a class="blog--tag" href="">Base de dados</a>
@@ -114,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-card">
+                <div class="blog-card"><!-- blog card preview 06 -->
                     <div class="blog-card-banner"><img src="assets/img/IMAGE (1).png" alt=""></div>
                     <div class="blog-content">
                         <a class="blog--tag" href="">Base de dados</a>
@@ -132,9 +137,9 @@
                 <a class="btn__blog" href="">Carregar mais</a>
             </div>
         </div>
-
+        <!-- Início Container aside -->
         <div class="aside">
-            <div class="topics">
+            <div class="topics"><!-- card topicos do blog-->
                 <h2>Tópicos</h2>
                 <a class="topic__btn" href="#">
                         <i class=" icon--box fa-solid fa-database"></i>
@@ -149,7 +154,7 @@
                     <p>Desempenho web</p>
                 </a>
             </div>
-            <div class="tags">
+            <div class="tags"><!-- card principais tags do blog-->
                 <h2>Tags</h2>
                 <div class="wrapper">
                     <a class="hashtags" href="">#mongodb</a>
@@ -162,7 +167,7 @@
                     <a class="hashtags" href="">#a11y</a>
                 </div>
             </div>
-            <div class="contact">
+            <div class="contact"><!-- card links para seguir autos do blog-->
                 <h2>Vamos conversar?</h2>
                 <div class="wrapper">
                     <p>Do you want to learn more about how I can help your company overcome problems? Let us have a conversation.</p>
@@ -173,7 +178,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="newsletter">
+            <div class="newsletter"><!-- card newsletter para se inscrever-->
                 <h2>Se inscrever</h2>
                 <div class="wrapper">
                     <p>Subscribe to our newsletter to be among the first to keep up with the latest updates.</p>
@@ -184,16 +189,19 @@
                 </div>
             </div>
         </div>
+        <!-- Fim Container aside -->
         </div>
-
     </main>
+    <!--Fim main-->
+
+    <!--Início footer-->
     <footer>
         <div class="container__footer">
-            <div class="content__footer">
+            <div class="content__footer"><!-- logo e descrição do blog no footer -->
                 <img class="footer.logo" src="assets/img/logo.svg" alt="">
                 <p class="footer__text">Learn about Web accessibility, Web performance, and Database management.</p>
             </div>
-            <div class="content__footer">
+            <div class="content__footer"><!-- lista de links rápidos 1 -->
                 <p class="footer__title">Quick Links</p>
                 <ul class="list__footer">
                     <li><a href="">Advertise with us</a></li>
@@ -201,7 +209,7 @@
                     <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="content__footer">
+            <div class="content__footer"><!-- lista de links rápido 2 -->
                 <p class="footer__title">Legal Stuff</p>
                 <ul class="list__footer">
                     <li><a href="">Privacy Notice</a></li>
@@ -212,5 +220,7 @@
         </div>
         <p class="Copyright">© Copyright 2023 <span>DosSantosDev</span></p>
     </footer>
+    <!--Fim footer-->
+
 </body>
 </html>
