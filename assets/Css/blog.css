@@ -3,10 +3,12 @@
     grid-template-columns: 5fr 2fr;
     gap: 60px;
     padding: 8em;
+    background-color: hsl(0deg 0% 97%);
 }
 
 .blog__container{
     display: block;
+    align-items: center;
 }
 
 .blog__container h2{
@@ -29,6 +31,12 @@
     transition: .25s ease;
     padding: 10px;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.blog-card:hover{
+    transform: translateX(5px);
+    transition: 0.50s;
 }
 
 .blog-card-banner{

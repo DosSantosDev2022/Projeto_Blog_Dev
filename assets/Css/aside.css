@@ -1,0 +1,163 @@
+/*Seção Aside*/
+.aside{
+    display: block;
+    align-self: stretch;
+}
+
+.aside .wrapper{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 5px 5px hsl(0deg 0% 0% / 5%);
+}
+
+/*topicos*/
+
+.topics{
+    margin-bottom: 3rem;
+}
+
+.aside h2{
+    color: var(--Cor__texto);
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.topic__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 5px;
+    background-color: var(--Cor__fundo2);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.363);
+    overflow: hidden;
+    margin-bottom: 1rem;
+    padding: 18px;
+}
+
+.topic__btn .icon--box{
+    margin-right: 10px;
+    color: var(--cor__botão);
+    font-size: 30px;
+    width: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(214deg 32% 91%);
+    color: hsl(216deg 15% 52%);
+
+}
+
+.topic__btn P{
+    padding: 15px;
+    color: hsl(216deg 15% 52%);
+    font-weight: 700;
+}
+
+/*Tags*/
+
+.tags{
+    margin-bottom: 3rem
+}
+
+.tags .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hashtags{
+    background-color: hsl(214deg 32% 91%);
+    color: hsl(216deg 15% 52%);
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+
+.hashtags:hover{
+    background-color:hsl(216deg 15% 52%);
+    color: white;
+}
+
+/*Contato*/
+
+.contact{
+    margin-bottom: 3rem;
+
+}
+
+.contact p{
+    margin-bottom: 1rem;
+    color: hsl(216deg 15% 52%);
+}
+
+.social__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social__link .fa-brands{
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(210deg 38% 95%);
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__link .fa-brands:hover{
+    background-color: var(--cor__botão);
+    transition: 1s;
+}
+
+/*newsletter*/
+
+.newsletter{
+    margin-bottom: 1rem;
+
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.newsletter p{
+    margin-bottom: 1rem;
+    color: hsl(216deg 15% 52%);
+}
+
+.input__container{
+    border: none;
+    background-color: hsl(214deg 32% 91%);
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    color: hsl(216deg 15% 52%);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.btn{
+    background-color: var(--cor__botão);
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}

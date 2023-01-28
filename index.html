@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/766736882b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/Css/style.css">
     <title>Blog Dev</title>
 </head>
@@ -15,7 +16,7 @@
                 <ul class=>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre mim</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="">Posts</a></li>
                 </ul>
             </nav>
         </div>
@@ -136,9 +137,18 @@
         <div class="aside">
             <div class="topics">
                 <h2>Tópicos</h2>
-                <a class="topic__btn" href="#">Base de dados</a>
-                <a class="topic__btn" href="#">Acessibilidade</a>
-                <a class="topic__btn" href="#">Desempenho web</a>
+                <a class="topic__btn" href="#">
+                        <i class=" icon--box fa-solid fa-database"></i>
+                        <p>Base de dados</p>
+                </a>
+                <a class="topic__btn" href="#">
+                    <i class=" icon--box fa-solid fa-universal-access"></i>
+                    <p>Acessibilidade</p>
+                </a>
+                <a class="topic__btn" href="#">
+                    <i class="icon--box fa-regular fa-browser"></i>
+                    <p>Desempenho web</p>
+                </a>
             </div>
             <div class="tags">
                 <h2>Tags</h2>
@@ -158,18 +168,18 @@
                 <div class="wrapper">
                     <p>Do you want to learn more about how I can help your company overcome problems? Let us have a conversation.</p>
                     <ul class="social__link">
-                        <li><a href="">social 1</a></li>
-                        <li><a href="">social 1</a></li>
-                        <li><a href="">social 1</a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="newsletter">
-                <h2>Boletin de noticias</h2>
+                <h2>Se inscrever</h2>
                 <div class="wrapper">
                     <p>Subscribe to our newsletter to be among the first to keep up with the latest updates.</p>
                     <form action="">
-                        <input type="email" name="email" placeholder="Endereço de E-mail" required>
+                        <input class="input__container" type="email" name="email" placeholder="Endereço de E-mail" required>
                         <button type="submit" class="btn">Se inscrever</button>
                     </form>
                 </div>
@@ -179,5 +189,32 @@
 
     </main>
     
+    <footer>
+        <div class="container__footer">
+            <div class="content__footer">
+                <img class="footer.logo" src="assets/img/logo.svg" alt="">
+                <p class="footer__text">Learn about Web accessibility, Web performance, and Database management.</p>
+            </div>
+            <div class="content__footer">
+                <p class="footer__title">Quick Links</p>
+                <ul class="list__footer">
+                    <li><a href="">Advertise with us</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="content__footer">
+                <p class="footer__title">Legal Stuff</p>
+                <ul class="list__footer">
+                    <li><a href="">Privacy Notice</a></li>
+                    <li><a href="">Privacy Notice</a></li>
+                    <li><a href="">Privacy Notice</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="Copyright">© Copyright 2023 <span>DosSantosDev</span></p>
+    </footer>
+
+
 </body>
 </html>

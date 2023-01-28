@@ -1,0 +1,43 @@
+.container__footer{
+    background-color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 5rem;
+    border-top: 1px solid #f7f7f7;
+}
+
+.content__footer{
+    text-align: left;
+    text-align: left;
+}
+
+.footer.logo{
+    margin-bottom: 10px;
+}
+
+.footer__text{
+    color: hsl(216deg 15% 52%);
+    max-width: 300px;
+    margin-top: 1.5rem;
+}
+
+.footer__title{
+    color: hsl(218deg 23% 23%);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.list__footer li a {
+    color: hsl(216deg 15% 52%);
+    
+}
+.Copyright{
+    text-align: center;
+    background-color: white;
+    padding: 1.4em;
+    border-top: 1px solid #e7e7e7;
+    font-size: 13px;
+}
