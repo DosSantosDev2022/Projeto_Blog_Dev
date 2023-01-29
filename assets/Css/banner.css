@@ -6,38 +6,38 @@
     align-items: center;
 }
 
-.text__description{
+.banner__text{
     width: 50%;
     padding: 2em;
 
 }
 
-.text__description h1{
+.banner__text h1{
     color: var(--Cor__texto);
     font-size: 45px;
     font-weight: 900;
     margin: 0.5em 0;
 }
 
-.text__description h1 span{
+.banner__text h1 span{
     color: var(--cor__botão);
 }
 
-.descrição__dev{
+.banner__text__paragrafo1{
     color: var(--Cor__texto);
     font-size: 30px;
     font-weight: 600;
     margin: 0.3em 0;
 }
 
-.descrição__dev2{
+.banner__text__paragrafo2{
     color: var(--Cor__texto);
     font-size: 19px;
     font-weight: 500;
     margin-bottom: 1.7em;
 }
 
-.button{
+.banner__button{
     margin: 7px;
     background-color: var(--cor__botão);
     padding: 10px;
@@ -46,21 +46,13 @@
     color: var(--cor__fundo1);
 }
 
-.button a{  
+.banner__button a{  
     color: var(--cor__navmenu);
 }
 
-.foto__perfil{
+.banner__foto{
     border: 3px solid var(--cor__botão);
     border-radius: 10% 40% 30%;
     width: 350px;
     position: relative;
-
-}
-
-.fundo__perfil{
-    width: 60%;
-    position: absolute;
-    right: -50px;
-    bottom: 50px;
 }

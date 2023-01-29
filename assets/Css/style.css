@@ -7,17 +7,6 @@
 @import url(aside.css);
 @import url(footer.css);
 
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--cor__botão);
-    border-radius: 20px; 
-    border:none;
-}
-
 /*Reset CSS*/
 *{
     font-family: 'Inter', sans-serif;
@@ -28,6 +17,15 @@
     list-style: none;
 }
 
+/*style scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--cor__botão);
+    border-radius: 20px; 
+    border:none;
+}
 
 /*Variáveis*/
 :root{
@@ -42,7 +40,5 @@
 
 /*Body*/
 body{
-    width: 100%;
     background-color: var(--Cor__fundo2);
-    margin: 0 auto;
 }
